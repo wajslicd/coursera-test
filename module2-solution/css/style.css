@@ -38,7 +38,7 @@ p{
 	height: 160px;
 	padding: 40px 10px 10px 10px;
 	overflow: hidden;
-	margin: 0 0 10px 0;
+	margin: 0;
 }
 
 #pink > h2{
@@ -149,7 +149,6 @@ div.row {
 /********** Small devices only **********/
 @media (max-width: 767px){
 	.col-sm-12{
-		padding:0 0 1px 0;
 		float: left;
 		width: 100%;
 	}
