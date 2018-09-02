@@ -1,0 +1,92 @@
+body {
+	font-size: 16px; 
+	color: #fff;
+	background-color: #f99a25;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #9bc53d;
+	border-radius: 0;		
+}
+
+.navbar-default {
+	border: none;
+}
+#fixed-nav {
+	border: 1px solid black;
+}
+#collapsable-nav {
+	border: 0;
+	padding: 0;
+}
+.navbar-brand {
+	padding-top: 10px;
+}
+.navbar-brand h1 {
+	margin: 0 0 15px 20px;
+	font-weight: bold;
+	font-size: 22px;
+}
+#nav-list {
+	margin: 0;
+}
+#nav-list a {
+	background-color: #778899;
+	color: white;
+	border: 1px solid #B0C4DE;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #B0C4DE;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #778899;
+}
+
+/** END HEADER **/
+
+/** HOME PAGE **/
+#page-heading {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 0;
+	padding-bottom: 40px;
+}
+.row {
+	margin: 10px;
+}
+.menu-item-description {
+	height: 1000px;
+	padding: 10px;
+	background-color: #125768;
+	overflow: hidden;
+}
+.menu-item-description > h3 {
+	font-size: 110%;
+	font-weight: bold;
+	margin-top: 0;
+}
+/** END HOME PAGE **/
+
+/********** Medium devices only **********/
+@media (min-width: 992px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	#page-heading {
+		padding-bottom: 15px;
+	}
+	.row {
+		margin-right: 40px;
+		margin-left: 40px;
+	}
+}
